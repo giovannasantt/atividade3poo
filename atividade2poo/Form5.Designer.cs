@@ -119,6 +119,7 @@
             // 
             this.txtnomeR.Location = new System.Drawing.Point(534, 15);
             this.txtnomeR.Name = "txtnomeR";
+            this.txtnomeR.ReadOnly = true;
             this.txtnomeR.Size = new System.Drawing.Size(100, 20);
             this.txtnomeR.TabIndex = 9;
             // 
@@ -135,6 +136,7 @@
             // 
             this.txtidadeR.Location = new System.Drawing.Point(532, 49);
             this.txtidadeR.Name = "txtidadeR";
+            this.txtidadeR.ReadOnly = true;
             this.txtidadeR.Size = new System.Drawing.Size(100, 20);
             this.txtidadeR.TabIndex = 11;
             // 
@@ -151,6 +153,7 @@
             // 
             this.txtabono.Location = new System.Drawing.Point(532, 86);
             this.txtabono.Name = "txtabono";
+            this.txtabono.ReadOnly = true;
             this.txtabono.Size = new System.Drawing.Size(100, 20);
             this.txtabono.TabIndex = 13;
             // 
@@ -167,6 +170,7 @@
             // 
             this.txtsalarioL.Location = new System.Drawing.Point(577, 114);
             this.txtsalarioL.Name = "txtsalarioL";
+            this.txtsalarioL.ReadOnly = true;
             this.txtsalarioL.Size = new System.Drawing.Size(100, 20);
             this.txtsalarioL.TabIndex = 15;
             // 

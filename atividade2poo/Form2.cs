@@ -35,5 +35,12 @@ namespace atividade2poo
             Frmtabela tela3 = new Frmtabela();
             tela3.Show();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 tela2 = new Form4();
+            tela2.Show();
+        }
     }
 }

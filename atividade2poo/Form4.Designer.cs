@@ -40,6 +40,11 @@
             this.txtsalarioS = new System.Windows.Forms.TextBox();
             this.lblsalarioFinal = new System.Windows.Forms.Label();
             this.txtsalarioF = new System.Windows.Forms.TextBox();
+            this.lbl5por = new System.Windows.Forms.Label();
+            this.txt5por = new System.Windows.Forms.TextBox();
+            this.btncalcular = new System.Windows.Forms.Button();
+            this.btnlimpar = new System.Windows.Forms.Button();
+            this.btnvoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblsalariof
@@ -61,7 +66,7 @@
             // lblcomissao
             // 
             this.lblcomissao.AutoSize = true;
-            this.lblcomissao.Location = new System.Drawing.Point(43, 70);
+            this.lblcomissao.Location = new System.Drawing.Point(40, 70);
             this.lblcomissao.Name = "lblcomissao";
             this.lblcomissao.Size = new System.Drawing.Size(163, 13);
             this.lblcomissao.TabIndex = 2;
@@ -77,7 +82,7 @@
             // lblcarros
             // 
             this.lblcarros.AutoSize = true;
-            this.lblcarros.Location = new System.Drawing.Point(43, 104);
+            this.lblcarros.Location = new System.Drawing.Point(40, 104);
             this.lblcarros.Name = "lblcarros";
             this.lblcarros.Size = new System.Drawing.Size(177, 13);
             this.lblcarros.TabIndex = 4;
@@ -93,7 +98,7 @@
             // lblvalorVendas
             // 
             this.lblvalorVendas.AutoSize = true;
-            this.lblvalorVendas.Location = new System.Drawing.Point(43, 136);
+            this.lblvalorVendas.Location = new System.Drawing.Point(40, 136);
             this.lblvalorVendas.Name = "lblvalorVendas";
             this.lblvalorVendas.Size = new System.Drawing.Size(153, 13);
             this.lblvalorVendas.TabIndex = 6;
@@ -109,7 +114,7 @@
             // lblsalarioS
             // 
             this.lblsalarioS.AutoSize = true;
-            this.lblsalarioS.Location = new System.Drawing.Point(40, 166);
+            this.lblsalarioS.Location = new System.Drawing.Point(40, 173);
             this.lblsalarioS.Name = "lblsalarioS";
             this.lblsalarioS.Size = new System.Drawing.Size(117, 13);
             this.lblsalarioS.TabIndex = 8;
@@ -141,11 +146,63 @@
             this.txtsalarioF.Size = new System.Drawing.Size(100, 20);
             this.txtsalarioF.TabIndex = 11;
             // 
+            // lbl5por
+            // 
+            this.lbl5por.AutoSize = true;
+            this.lbl5por.Location = new System.Drawing.Point(40, 240);
+            this.lbl5por.Name = "lbl5por";
+            this.lbl5por.Size = new System.Drawing.Size(71, 13);
+            this.lbl5por.TabIndex = 12;
+            this.lbl5por.Text = "Valor dos 5%:";
+            // 
+            // txt5por
+            // 
+            this.txt5por.Location = new System.Drawing.Point(117, 237);
+            this.txt5por.Name = "txt5por";
+            this.txt5por.ReadOnly = true;
+            this.txt5por.Size = new System.Drawing.Size(100, 20);
+            this.txt5por.TabIndex = 13;
+            // 
+            // btncalcular
+            // 
+            this.btncalcular.Location = new System.Drawing.Point(43, 290);
+            this.btncalcular.Name = "btncalcular";
+            this.btncalcular.Size = new System.Drawing.Size(75, 23);
+            this.btncalcular.TabIndex = 14;
+            this.btncalcular.Text = "Calcular";
+            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
+            // 
+            // btnlimpar
+            // 
+            this.btnlimpar.Location = new System.Drawing.Point(151, 290);
+            this.btnlimpar.Name = "btnlimpar";
+            this.btnlimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnlimpar.TabIndex = 15;
+            this.btnlimpar.Text = "Limpar";
+            this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
+            // 
+            // btnvoltar
+            // 
+            this.btnvoltar.Location = new System.Drawing.Point(252, 290);
+            this.btnvoltar.Name = "btnvoltar";
+            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.TabIndex = 16;
+            this.btnvoltar.Text = "Voltar";
+            this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnvoltar);
+            this.Controls.Add(this.btnlimpar);
+            this.Controls.Add(this.btncalcular);
+            this.Controls.Add(this.txt5por);
+            this.Controls.Add(this.lbl5por);
             this.Controls.Add(this.txtsalarioF);
             this.Controls.Add(this.lblsalarioFinal);
             this.Controls.Add(this.txtsalarioS);
@@ -179,5 +236,10 @@
         private System.Windows.Forms.TextBox txtsalarioS;
         private System.Windows.Forms.Label lblsalarioFinal;
         private System.Windows.Forms.TextBox txtsalarioF;
+        private System.Windows.Forms.Label lbl5por;
+        private System.Windows.Forms.TextBox txt5por;
+        private System.Windows.Forms.Button btncalcular;
+        private System.Windows.Forms.Button btnlimpar;
+        private System.Windows.Forms.Button btnvoltar;
     }
 }
