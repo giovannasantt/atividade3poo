@@ -188,6 +188,7 @@
             this.btnlimpar.TabIndex = 17;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnvoltar
             // 
@@ -197,6 +198,7 @@
             this.btnvoltar.TabIndex = 18;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // txtsexo
             // 

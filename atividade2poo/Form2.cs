@@ -28,5 +28,12 @@ namespace atividade2poo
         {
             Application.Exit();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Frmtabela tela3 = new Frmtabela();
+            tela3.Show();
+        }
     }
 }

@@ -32,6 +32,7 @@
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.somaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +51,8 @@
             // 
             this.programasToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlDark;
             this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.somaToolStripMenuItem});
+            this.somaToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.programasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
@@ -61,7 +63,7 @@
             this.somaToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.somaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.somaToolStripMenuItem.Name = "somaToolStripMenuItem";
-            this.somaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.somaToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.somaToolStripMenuItem.Text = "Soma";
             this.somaToolStripMenuItem.Click += new System.EventHandler(this.somaToolStripMenuItem_Click);
             // 
@@ -73,6 +75,13 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(191, 22);
+            this.toolStripMenuItem1.Text = "Calculadora de Salário";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // frmtela1
             // 
@@ -97,5 +106,6 @@
         private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem somaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
